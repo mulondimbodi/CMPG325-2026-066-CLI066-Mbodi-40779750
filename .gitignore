@@ -1,0 +1,28 @@
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*~.auto
+*.lnk
+*.pkt.backup
+*.pkt~
+*.ptbackup
+autosave/
+backup/
+node_modules/
+package.json
+package-lock.json
+generate_pdf.js
+__pycache__/
+*.pyc
+.pyc
+.vs/
+.vscode/
+.trae/
+_M1_MD_SAFETY_BACKUP_DO_NOT_SUBMIT_KEEP_FOR_M2_M3/
+CMPG\ ASSIGNMENT.pdf
+CMPG\ 325_PROJECT\ MARKING\ RUBRIC.png
+CMPG\ 325_PROJECT\ IN\ ONE\ DIAGRAM.png
+~$*
