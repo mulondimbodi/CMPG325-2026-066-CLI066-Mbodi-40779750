@@ -1,4 +1,4 @@
-# CMPG325-2026-066 · CLI-066: Kagiso Mechanical Engineering – LAN Redesign Portfolio
+# CMPG325-2026-066 · CLI-066: Kagiso Mechanical Engineering – Milestone 1 Design Review
 ## Mulondi Mbodi · Student 40779750 · North-West University (Mahikeng Campus) · 2026
 
 > **About this repository:** 3rd-year CMPG 325 Computer Networks capstone. I designed a 52-staff extended-star 3-tier Cisco LAN for client CLI-066 Kagiso Mechanical Engineering (Rustenburg mining-support SME). 192.168.35.0/24 VLSM-split into 7 VLANs (Admin / Eng CAD / Production / Finance POPI / ICT / Mgmt-Servers / Guest WiFi) using largest-first allocation; 48% IP headroom retained for B-BBEE / Bakwena-SETA intern 2027 expansion. Milestone 1 submitted 28 Aug 2026.
