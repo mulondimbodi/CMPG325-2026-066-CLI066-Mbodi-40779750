@@ -55,7 +55,7 @@ I intentionally cabled a second trunk — DLS1 Fa0/22 ↔ ALS-ENG Fa0/22 — to 
 | # | Planned contents | Planned folder / filename | Status |
 |---|---|---|---|
 | M2.1 | Full running config on every device: VLANs, SVIs, DHCP relay, trunks, ACLs, OSPF, NAT/PAT, DHCP scopes, port security, PortFast, BPDU Guard, and Rapid-PVST+ | `Milestone2/CLI066_Mbodi_40779750_M2_CONFIGURED.pkt` | ✅ COMPLETE |
-| M2.2 | Validation screenshot evidence covering topology, DHCP, DNS, HTTP, authorised/denied access, VLANs, trunks, routing, ACLs, STP, and port security | `evidence/M2_config_screenshots/` and `evidence/M2_service_tests/` | ✅ COMPLETE |
+| M2.2 | Validation screenshot evidence covering topology, DHCP, DNS, HTTP, authorised/denied access, VLANs, trunks, routing, ACLs, STP, and port security | `Milestone2/evidence/M2_config_screenshots/` and `Milestone2/evidence/M2_service_tests/` | ✅ COMPLETE |
 | M2.3 | Implementation document with configuration summary, test results, evidence references, and troubleshooting log | `Milestone2/01_Implementation_Report.md` | ✅ COMPLETE |
 
 ### Milestone 3 — Final Submission + Viva
@@ -86,14 +86,14 @@ ASSIGNMENT/
 ├── Milestone2/                     completed implementation & test evidence
 │   ├── CLI066_Mbodi_40779750_M2_CONFIGURED.pkt
 │   ├── 01_Implementation_Report.md
-│   └── 02_Device_Configuration_Commands.md
+│   ├── 02_Device_Configuration_Commands.md
+│   └── evidence/
+│       ├── README.md
+│       ├── M2_config_screenshots/
+│       └── M2_service_tests/
 │
 ├── Milestone3/                     coming – final .pkt, final report, viva link
 │   ├── CLI066_Mbodi_40779750_M3_FINAL.pkt
 │   └── 01_Final_Technical_Report.md
 │
-└── evidence/                       M2 screenshot evidence
-    ├── M2_config_screenshots/
-    ├── M2_service_tests/
-    └── M3_viva_supporting/
 ```

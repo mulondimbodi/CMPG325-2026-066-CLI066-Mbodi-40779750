@@ -69,7 +69,7 @@ This report records the final device configuration, verification output, test re
 
 ## 6. Evidence register
 
-Screenshots are stored under `evidence/` and indexed in [evidence/README.md](../evidence/README.md).
+Screenshots are stored under `evidence/` and indexed in [evidence/README.md](evidence/README.md).
 
 - [x] Final Packet Tracer topology and saved M2 file - `00_final_topology.png`
 - [x] VLSM subnet and gateway verification - `01_engineering_dhcp.png`
