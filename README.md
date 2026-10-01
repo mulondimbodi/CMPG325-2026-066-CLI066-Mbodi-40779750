@@ -48,7 +48,7 @@ I intentionally cabled a second trunk — DLS1 Fa0/22 ↔ ALS-ENG Fa0/22 — to 
 
 ---
 
-## 3 Milestones 2 & 3 — Coming after M1 marking
+## 3 Milestones 2 & 3
 
 ### Milestone 2 — Implementation & Validation
 
