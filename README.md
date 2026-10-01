@@ -54,9 +54,9 @@ I intentionally cabled a second trunk — DLS1 Fa0/22 ↔ ALS-ENG Fa0/22 — to 
 
 | # | Planned contents | Planned folder / filename | Status |
 |---|---|---|---|
-| M2.1 | Full running config on every device: `no shutdown` + IP addressing on R-EDGE Gi0/0 & Gi0/1, 7 SVIs on DLS1 each with `ip helper-address 192.168.35.114`, VLAN→port assignments on the 4 access switches, trunk allow-lists, 7 named ACLs applied inbound/outbound on each SVI, OSPF Area 0 with `default-information originate always`, NAT/PAT overload on R-EDGE Gi0/0, 7 DHCP scopes fully configured on SVR-DC, 802.1X + portfast + bpduguard on access ports | `Milestone2/CLI066_Mbodi_40779750_M2_CONFIGURED.pkt` | 🟡 NOT STARTED |
-| M2.2 | Validation screenshot evidence (11 ICMP ping tests per the D1 Validation Testplan, DHCP lease screenshots on SVR-DC, DNS `nslookup`, STP `show spanning-tree`, port-security restrict port screenshots, STP failover demo where I unplug the active CBL-03 trunk and STP re-converges) | `evidence/M2_ping_tests/*.png`, `evidence/M2_service_tests/*.png` | 🟡 NOT STARTED |
-| M2.3 | Implementation document (per-device running-config exports, test-script pass/fail, STP failover fault-injection write-up) | `Milestone2/01_Implementation_Report.md` | 🟡 NOT STARTED |
+| M2.1 | Full running config on every device: VLANs, SVIs, DHCP relay, trunks, ACLs, OSPF, NAT/PAT, DHCP scopes, port security, PortFast, BPDU Guard, and Rapid-PVST+ | `Milestone2/CLI066_Mbodi_40779750_M2_CONFIGURED.pkt` | ✅ COMPLETE |
+| M2.2 | Validation screenshot evidence covering topology, DHCP, DNS, HTTP, authorised/denied access, VLANs, trunks, routing, ACLs, STP, and port security | `evidence/M2_config_screenshots/` and `evidence/M2_service_tests/` | ✅ COMPLETE |
+| M2.3 | Implementation document with configuration summary, test results, evidence references, and troubleshooting log | `Milestone2/01_Implementation_Report.md` | ✅ COMPLETE |
 
 ### Milestone 3 — Final Submission + Viva
 
@@ -83,16 +83,17 @@ ASSIGNMENT/
 │   ├── CLI066_Mbodi_40779750_M1_D3_LogicalTopology.pdf         D3 – VLAN & trunk & ACL plan
 │   └── CLI066_Mbodi_40779750_M1_D4_IPAddressingPlan.pdf        D4 – VLSM 192.168.35.0/24 breakdown
 │
-├── Milestone2/                     coming – implementation & test evidence
+├── Milestone2/                     completed implementation & test evidence
 │   ├── CLI066_Mbodi_40779750_M2_CONFIGURED.pkt
-│   └── 01_Implementation_Report.md
+│   ├── 01_Implementation_Report.md
+│   └── 02_Device_Configuration_Commands.md
 │
 ├── Milestone3/                     coming – final .pkt, final report, viva link
 │   ├── CLI066_Mbodi_40779750_M3_FINAL.pkt
 │   └── 01_Final_Technical_Report.md
 │
-└── evidence/                       screenshot buckets for marking validation
-    ├── M2_ping_tests/
+└── evidence/                       M2 screenshot evidence
+    ├── M2_config_screenshots/
     ├── M2_service_tests/
     └── M3_viva_supporting/
 ```
