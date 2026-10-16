@@ -15,7 +15,7 @@
 | 1 | Final Packet Tracer file | `Milestone3/CLI066_Mbodi_40779750_M3_FINAL.pkt` | Ready |
 | 2 | Final Technical Report | `Milestone3/01_Final_Technical_Report.pdf` | Ready |
 | 3 | INSET Video Demonstration | `Milestone3/project_video.mp4` | Recorded and uploaded |
-| 4 | GitHub Portfolio | `https://github.com/mulondimbodi/CMPG325-2026-066-CLI066-Mbodi-40779750` | M2 online; M3 to be pushed |
+| 4 | GitHub Portfolio | `https://github.com/mulondimbodi/CMPG325-2026-066-CLI066-Mbodi-40779750` | M3 pushed |
 | 5 | Evidence folder | `Milestone2/evidence/` | Complete |
 
 ---
@@ -79,7 +79,7 @@
 - [x] Evidence folder organised
 - [x] INSET video recorded
 - [x] INSET video uploaded
-- [ ] M3 pushed to GitHub
+- [x] M3 pushed to GitHub
 - [x] Final .pkt retest completed
 
 ---

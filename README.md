@@ -150,7 +150,7 @@ ASSIGNMENT/
 - [x] M3 INSET video recorded and submitted via eFundi
 - [x] Evidence folder organised
 - [x] Submission manifest created
-- [ ] Push M3 to GitHub
+- [x] M3 pushed to GitHub
 
 ---
 
