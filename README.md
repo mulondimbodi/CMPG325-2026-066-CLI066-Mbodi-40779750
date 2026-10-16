@@ -47,7 +47,7 @@ All implementation and testing evidence lives under `Milestone2/`.
 | # | Deliverable | File(s) | Status |
 |---|---|---|---|
 | M2.1 | Full configured Packet Tracer | `CLI066_Mbodi_40779750_M2_CONFIGURED.pkt` | Complete |
-| M2.2 | Testing evidence screenshots | `evidence/M2_config_screenshots/` + `evidence/M2_service_tests/` | Complete |
+| M2.2 | Testing evidence screenshots | `Milestone2/evidence/M2_config_screenshots/` + `Milestone2/evidence/M2_service_tests/` | Complete |
 | M2.3 | Implementation report | `01_Implementation_Report.md` / `.pdf` | Complete |
 | M2.4 | Device configuration commands | `02_Device_Configuration_Commands.md` / `.pdf` | Complete |
 
@@ -137,9 +137,6 @@ ASSIGNMENT/
 │   ├── SUBMISSION_MANIFEST.md
 │   └── SUBMISSION_MANIFEST.pdf
 │
-└── evidence/                       M2 screenshot evidence
-    ├── M2_config_screenshots/
-    └── M2_service_tests/
 ```
 
 ---
